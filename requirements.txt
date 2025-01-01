@@ -1,0 +1,7 @@
+langchain
+langchain_community
+mlflow
+pandas
+matplotlib
+langchain_qdrant
+lark
