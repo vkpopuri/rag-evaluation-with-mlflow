@@ -49,6 +49,8 @@ Notes
 •	MLflow AI Gateway is an experimental service, and this service may undergo changes continuously. Please refer to Mlflow documentation for additional details.
 •	Selecting  Vector databases, embedding algorithms, chunking sizes, etc. depend on the use case. It requires lot of experimentation and testing to arrive at optimal configuration. 
 •	The purpose of this illustration is to introduce beginners to the concepts of experimentation using  Mlflow AI Gateway, Mlflow tracking server and MLflow evaluate function. Any comparative analysis and graphs shown in this tutorial are purely for illustration only but not to indicate one component is better than the other.
+. A note- this tutorial utilizes the sample notebook provided by MLflow documentation however, instead of leveraging LLM endpoints hosted on Databricks, I used a local MLflow AI gateway to configure endpoints for LLMs and leveraged the gateway’s APIs for accessing models for embeddings and completions![image](https://github.com/user-attachments/assets/780bba0b-fec7-4b17-9163-4357cee636ff)
+
 
 
 
